@@ -10,7 +10,6 @@
     "test-chrome": "npx playwright test --project=chromium",
     "test-firefox": "npx playwright test --project=firefox",
     "test-webkit": "npx playwright test --project=webkit"
-
   },
   "keywords": [],
   "author": "",
@@ -19,5 +18,8 @@
   "devDependencies": {
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0"
   }
 }
