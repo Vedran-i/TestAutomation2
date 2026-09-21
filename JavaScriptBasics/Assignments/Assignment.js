@@ -10,6 +10,11 @@ for (let i = 0; i <= 100; i++)
 console.log(sum);
 
 
+let i = 3982;
+let rvs = i.toString().split('').reverse().join('');
+console.log(rvs);
+
+
 // 2. reverse the number 3982
 
 let num = 3982;
