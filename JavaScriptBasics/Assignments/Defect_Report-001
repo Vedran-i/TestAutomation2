@@ -1,0 +1,27 @@
+ID: 001
+
+Title: Items not displayed correctly according to rank 
+
+Environment: 
+Windows 11 Pro 
+Chrome, Version 152.0.7977.83 (Official Build) (64-bit)
+Microsoft Edge Version 153.0.4234.32 (Official build) (64-bit)
+
+Severity: Low
+
+Priority: Medium
+
+Preconditions: None/Initial state of website 
+
+Steps to reproduce:
+1.	Go to https://buggy.justtestit.org
+2.	Click on Overall Rating (https://buggy.justtestit.org/overall)
+3.	Click on Rank
+
+Expected result: User should be able to toggle rank order by clicking the Rank button. In the initial state, rank is displayed in sequential order from first to last. Clicking it should display ranks from last to first and clicking it again should again display it as first to last. 
+
+Actual result: Rank is displayed in the order of first and then skips to 10th and counts up from there. Clicking on it again does nothing.
+
+Attachment:
+
+Additional info:
