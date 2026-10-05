@@ -22,6 +22,6 @@ Expected result: User should be able to toggle rank order by clicking the Rank b
 
 Actual result: Rank is displayed in the order of first and then skips to 10th and counts up from there. Clicking on it again does nothing.
 
-Attachment:
+Attachment: See image
 
 Additional info:
