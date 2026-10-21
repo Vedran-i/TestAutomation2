@@ -46,6 +46,14 @@ while (stack.length > 0) { //Pull from stack and put into empty string variable.
 console.log(reverse_string);
 
 
+// 4. check even or odd
+
+for (i=0; i<100; i++){
+    if (i % 2 == 0)
+        console.log(`${i}" is Even"`)
+    else{console.log(`${i}" is Odd"`)}
+}
+
 // EXTRA
 
 for (let x = 1; x<=101; x++)
