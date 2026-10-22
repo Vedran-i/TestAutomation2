@@ -54,6 +54,47 @@ for (i=0; i<100; i++){
     else{console.log(`${i}" is Odd"`)}
 }
 
+// 5. check largets number
+
+let array = [10, 25, 15];
+
+if (array[0]>array[1]){console.log(`${array[0]}is the biggest`)}
+
+else if (array[1]>array[2]){console.log(`${array[1]} is the biggest`)}  
+  
+else{console.log("false")}
+
+
+// 6. 
+//count vowels
+let vowels = ["a", "i", "u", "e", "o"];
+let string6 = "Automation";
+let counter = 0;
+
+for(char of string6){
+  if(vowels.includes(char.toLowerCase())){counter +=1}
+}
+console.log(counter)
+
+
+// 7. 
+//check if a word is a palindrome
+let word1 = "madam";
+let palindrome = true;
+
+for (let i = 0; i < word1.length / 2; i++) {
+  if (word1[i] !== word1[word1.length - 1 - i]) {
+    palindrome = false;
+    break;
+  }
+}
+
+if (palindrome == true) {
+  console.log("it is a palindrome");
+} else {
+  console.log("not a palindrome");
+} 
+
 // EXTRA
 
 for (let x = 1; x<=101; x++)
